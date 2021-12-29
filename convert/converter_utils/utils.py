@@ -47,7 +47,6 @@ def run_convert(source_path, output_path, type_data):
     source_file = open(source_path, "r")
     lines = source_file.readlines()
 
-    count = 0
     # Strips the newline character
     result = []
     for line in lines:

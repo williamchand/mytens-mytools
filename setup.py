@@ -17,6 +17,24 @@ with open(join(this_dir, "README.md"), encoding="utf-8") as file:
     long_description = file.read()
 
 
+class RunTests(Command):
+    """Run all tests."""
+
+    description = "run tests"
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        """Run all tests!"""
+        errno = call(["py.test", "--cov=converter-cli", "--cov-report=term-missing"])
+        raise SystemExit(errno)
+
+
 setup(
     name="mytools",
     version=__version__,
@@ -36,11 +54,15 @@ setup(
         "Programming Language :: Python :: 3.6",
     ],
     keywords="cli, log, linux, mytools",
-    packages=find_packages(exclude=["docs"]),
+    packages=find_packages(exclude=["docs", "tests*"]),
     install_requires=["docopt"],
+    extras_require={
+        "test": ["coverage", "pytest", "pytest-cov", "mock"],
+    },
     entry_points={
         "console_scripts": [
             "mytools=convert.cli:main",
         ],
     },
+    cmdclass={"test": RunTests},
 )

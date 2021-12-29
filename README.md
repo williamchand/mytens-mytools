@@ -22,6 +22,10 @@ If you want to play around with the code I'd recommend creating a virtual enviro
 $ pip install -r requirements-dev.txt
 $ python setup.py develop
 
+## Unit Tests
+
+    $ py.test tests
+
 ## Usage
 
 The idea is for the CLI to ask you for the necessary information in order to work,
