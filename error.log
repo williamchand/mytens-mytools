@@ -1,0 +1,245 @@
+2017/10/05 14:24:16 [emerg] 25619#0: open() "/conf/hosts.conf" failed (2: No such file or directory) in /home/andrey_murzich/nginx/conf/nginx.conf:116
+2017/10/05 14:29:11 [emerg] 26020#0: open() "/conf/hosts.conf" failed (2: No such file or directory) in /home/andrey_murzich/nginx/conf/nginx.conf:116
+2017/10/05 14:30:14 [emerg] 26048#0: unexpected end of file, expecting "}" in /home/andrey_murzich/nginx/conf/hosts.conf:23
+2017/10/05 14:34:27 [error] 26174#0: *1 open() "/home/andrey_murzich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080"
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 14:38:42 [emerg] 26392#0: still could not bind()
+2017/10/05 14:39:00 [notice] 26400#0: signal process started
+2017/10/05 14:41:08 [emerg] 26444#0: unexpected "}" in /home/andrey_murzich/nginx/conf/hosts.conf:15
+2017/10/05 14:41:16 [emerg] 26446#0: unexpected "}" in /home/andrey_murzich/nginx/conf/hosts.conf:15
+2017/10/05 14:41:29 [notice] 26480#0: signal process started
+2017/10/05 14:41:38 [error] 26484#0: *1 open() "/home/andrey_murzich/nginx/html/html/pictures" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures HTTP/1.1", host: "localhost:8080"
+2017/10/05 14:41:41 [error] 26484#0: *1 open() "/home/andrey_murzich/nginx/html/html/resources01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 14:41:46 [error] 26484#0: *1 open() "/home/andrey_murzich/nginx/html/html/resources01.gif" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures/01.gif HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 14:41:50 [error] 26484#0: *1 open() "/home/andrey_murzich/nginx/html/html/resources01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 14:41:52 [error] 26484#0: *1 open() "/home/andrey_murzich/nginx/html/html/resources01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 14:42:07 [notice] 26488#0: signal process started
+2017/10/05 14:42:11 [error] 26492#0: *1 open() "/home/andrey_murzich/nginx/html/html/resources/01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures/01.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 14:42:14 [error] 26492#0: *1 open() "/home/andrey_murzich/nginx/html/html/resources/01.gif" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /pictures/01.gif HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 14:42:32 [notice] 26503#0: signal process started
+2017/10/05 14:42:55 [error] 26508#0: *2 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.73, server: 192.168.122.73, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.73:8080"
+2017/10/05 14:45:55 [error] 26508#0: *4 open() "/home/andrey_murzich/nginx/html/html/status/control" failed (2: No such file or directory), client: 192.168.122.73, server: 192.168.122.73, request: "GET /status/control HTTP/1.1", host: "192.168.122.73:8080"
+2017/10/05 14:46:14 [error] 26508#0: *5 open() "/home/andrey_murzich/nginx/html/status/control" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /status/control HTTP/1.1", host: "localhost"
+2017/10/05 14:46:14 [error] 26508#0: *5 open() "/home/andrey_murzich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2017/10/05 14:46:14 [error] 26508#0: *5 open() "/home/andrey_murzich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2017/10/05 14:46:22 [error] 26508#0: *5 open() "/home/andrey_murzich/nginx/html/status/control" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /status/control?cmd=status HTTP/1.1", host: "localhost"
+2017/10/05 14:55:24 [notice] 26738#0: signal process started
+2017/10/05 14:55:34 [error] 26750#0: *1 "/home/andrey_murzich/nginx/html/status/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /status/ HTTP/1.1", host: "localhost"
+2017/10/05 14:59:45 [notice] 26793#0: signal process started
+2017/10/05 14:59:55 [error] 26797#0: *2 open() "/home/andrey_murzich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.73", referrer: "http://192.168.122.73/"
+2017/10/05 15:00:26 [error] 26797#0: *4 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:00:33 [error] 26797#0: *4 open() "/home/andrey_murzich/nginx/html/html/admin" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:00:59 [notice] 26884#0: signal process started
+2017/10/05 15:01:05 [error] 26888#0: *2 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:01:07 [error] 26888#0: *2 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:02:26 [notice] 26936#0: signal process started
+2017/10/05 15:03:18 [notice] 26950#0: signal process started
+2017/10/05 15:05:03 [notice] 27036#0: signal process started
+2017/10/05 15:08:34 [notice] 27139#0: signal process started
+2017/10/05 15:08:42 [error] 27143#0: *7 access forbidden by rule, client: 192.168.122.73, server: 192.168.122.73, request: "GET /status//format/json HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/status/"
+2017/10/05 15:14:19 [notice] 27305#0: signal process started
+2017/10/05 15:15:41 [notice] 27388#0: signal process started
+2017/10/05 15:17:28 [notice] 27435#0: signal process started
+2017/10/05 15:18:08 [notice] 27451#0: signal process started
+2017/10/05 15:23:13 [notice] 27528#0: signal process started
+2017/10/05 15:23:24 [error] 27532#0: *1 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:23:31 [error] 27532#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:23:35 [error] 27532#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:23:37 [error] 27532#0: *1 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:23:38 [error] 27532#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:23:40 [error] 27532#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 15:23:43 [error] 27532#0: *6 open() "/home/andrey_murzich/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.73", referrer: "http://192.168.122.73/"
+2017/10/05 15:23:54 [error] 27532#0: *10 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin/ HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:25:33 [notice] 27563#0: signal process started
+2017/10/05 15:25:37 [error] 27567#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin/ HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:25:43 [error] 27567#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin/ HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:25:58 [error] 27567#0: *3 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:27:01 [notice] 27583#0: signal process started
+2017/10/05 15:27:20 [error] 27587#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:27:30 [error] 27587#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:28:34 [notice] 27613#0: signal process started
+2017/10/05 15:28:51 [error] 27617#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:28:54 [error] 27617#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:29:04 [error] 27617#0: *4 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:29:07 [error] 27617#0: *4 open() "/home/andrey_murzich/nginx/conf/conf/htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:04 [notice] 27673#0: signal process started
+2017/10/05 15:31:16 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:20 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:21 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:21 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:22 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:22 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:22 [error] 27677#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:39 [error] 27677#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/10/05 15:31:43 [emerg] 27691#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/05 15:33:00 [error] 27677#0: *3 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:33:06 [notice] 27732#0: signal process started
+2017/10/05 15:33:14 [error] 27736#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:33:19 [error] 27736#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:34:14 [notice] 27750#0: signal process started
+2017/10/05 15:34:20 [error] 27754#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:34:36 [error] 27754#0: *3 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:34:50 [error] 27754#0: *4 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:37:03 [notice] 27786#0: signal process started
+2017/10/05 15:37:07 [error] 27790#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:37:08 [error] 27790#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:37:10 [error] 27790#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:37:22 [error] 27790#0: *3 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:37:25 [error] 27790#0: *3 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:39:48 [error] 27790#0: *4 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:40:57 [error] 27790#0: *5 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:42:07 [error] 27790#0: *6 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080"
+2017/10/05 15:42:09 [error] 27790#0: *6 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080"
+2017/10/05 15:42:23 [error] 27790#0: *8 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:46:01 [notice] 27906#0: signal process started
+2017/10/05 15:46:13 [error] 27910#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:46:13 [error] 27910#0: *1 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:46:25 [error] 27910#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:46:28 [error] 27910#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:48:31 [notice] 27948#0: signal process started
+2017/10/05 15:48:55 [error] 27952#0: *2 open() "/home/andrey_murzich/nginx/conf/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:50:43 [notice] 27998#0: signal process started
+2017/10/05 15:51:14 [error] 28002#0: *2 user "manager": password mismatch, client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:51:18 [error] 28002#0: *2 user "admin" was not found in "/home/andrey_murzich/nginx/conf/.htpasswd", client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:54:07 [notice] 28031#0: signal process started
+2017/10/05 15:54:19 [error] 28035#0: *2 open() "/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:54:22 [error] 28035#0: *2 open() "/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:55:18 [error] 28035#0: *5 open() "/conf/.htpasswd" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 15:57:12 [notice] 28067#0: signal process started
+2017/10/05 15:57:27 [error] 28071#0: *1 user "admin" was not found in "/home/andrey_murzich/nginx/conf/.htpasswd", client: 127.0.0.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2017/10/05 16:02:31 [notice] 28275#0: signal process started
+2017/10/05 16:02:42 [error] 28279#0: *2 open() "/home/andrey_murzich/nginx/html/html/rerer.html" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.122.73, request: "GET /rerer.html HTTP/1.1", host: "localhost:8080"
+2017/10/05 16:03:41 [error] 28279#0: *7 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 16:03:42 [error] 28279#0: *7 user "admin" was not found in "/home/andrey_murzich/nginx/conf/.htpasswd", client: 192.168.122.1, server: 192.168.122.73, request: "GET /admin HTTP/1.1", host: "192.168.122.73:8080", referrer: "http://192.168.122.73:8080/"
+2017/10/05 16:30:55 [notice] 28959#0: signal process started
+2017/10/05 16:34:09 [emerg] 29085#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/10/05 16:46:09 [emerg] 29657#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/10/05 16:46:49 [emerg] 29697#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/10/05 16:46:53 [emerg] 29713#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/10/05 16:47:09 [emerg] 29725#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/10/05 16:48:47 [notice] 29752#0: signal process started
+2017/10/06 04:48:21 [error] 2392#0: *1 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.238:8080", referrer: "http://192.168.122.238:8080/"
+2017/10/06 04:48:22 [error] 2392#0: *1 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.238:8080", referrer: "http://192.168.122.238:8080/"
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:52:02 [emerg] 2484#0: still could not bind()
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:06 [emerg] 2512#0: still could not bind()
+2017/10/06 04:56:20 [notice] 2517#0: signal process started
+2017/10/06 04:56:20 [error] 2517#0: open() "/home/andrey_murzich/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2017/10/06 04:56:34 [notice] 2518#0: signal process started
+2017/10/06 04:56:34 [error] 2518#0: open() "/home/andrey_murzich/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8081 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/10/06 04:56:53 [emerg] 2530#0: still could not bind()
+2017/10/06 04:57:29 [alert] 2391#0: unlink() "/home/andrey_murzich/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2017/10/06 06:25:34 [error] 1117#0: *1 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.73, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.23:8080", referrer: "http://192.168.122.23:8080/"
+2017/10/06 06:25:36 [error] 1117#0: *1 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.23:8080", referrer: "http://192.168.122.23:8080/"
+2017/10/06 06:29:35 [error] 1107#0: *1 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.73, request: "GET /status HTTP/1.1", host: "192.168.122.23:8080", referrer: "http://192.168.122.23:8080/"
+2017/10/06 06:38:56 [error] 2362#0: *1 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.23, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.23:8443", referrer: "http://192.168.122.23:8443/"
+2017/10/06 06:45:15 [error] 2403#0: *14 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.23, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.23:8443", referrer: "https://192.168.122.23:8443/"
+2017/10/06 06:45:17 [error] 2403#0: *14 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.23, request: "GET /status HTTP/1.1", host: "192.168.122.23:8443", referrer: "https://192.168.122.23:8443/"
+2017/10/06 06:49:18 [emerg] 2420#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/10/06 06:52:37 [error] 2455#0: *6 open() "/home/andrey_murzich/nginx/html/html/:8443" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.23, request: "GET /:8443 HTTP/1.1", host: "192.168.122.23"
+2017/10/06 06:52:37 [error] 2455#0: *6 open() "/home/andrey_murzich/nginx/html/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.23, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.23", referrer: "https://192.168.122.23/:8443"
+2017/10/06 06:52:57 [error] 2455#0: *6 open() "/home/andrey_murzich/nginx/html/html/:8443" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.23, request: "GET /:8443 HTTP/1.1", host: "192.168.122.23"
+2017/10/06 06:56:33 [emerg] 2549#0: "upstream" directive is not allowed here in /home/andrey_murzich/nginx/conf/backend.conf:17
+2017/10/06 06:57:00 [emerg] 2553#0: "upstream" directive is not allowed here in /home/andrey_murzich/nginx/conf/backend.conf:17
+2017/10/06 06:59:44 [error] 2592#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 06:59:44 [error] 2592#0: *2 SSL_do_handshake() failed (SSL: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol) while SSL handshaking to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://192.168.122.238:8080/", host: "192.168.122.23"
+2017/10/06 06:59:45 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:46 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:47 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:47 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:47 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:47 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:47 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:49 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:49 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:49 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:49 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:49 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:49 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:50 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:50 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:50 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:50 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:51 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:51 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:51 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:52 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:52 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:52 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:52 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 06:59:52 [error] 2592#0: *2 no live upstreams while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "https://backend/", host: "192.168.122.23"
+2017/10/06 07:00:23 [error] 2609#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:00:36 [error] 2609#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:04:19 [error] 2609#0: *30 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET /admin HTTP/1.1", upstream: "http://192.168.122.73:8080/admin", host: "192.168.122.23", referrer: "https://192.168.122.23/"
+2017/10/06 07:04:40 [error] 2609#0: *125 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:04:57 [error] 2609#0: *125 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:05:21 [error] 2609#0: *125 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET /status HTTP/1.1", upstream: "http://192.168.122.73:8080/status", host: "192.168.122.23", referrer: "https://192.168.122.23/"
+2017/10/06 07:09:07 [error] 2639#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:16:50 [error] 2661#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:17:02 [error] 2661#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:17:18 [error] 2661#0: *106 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:17:36 [error] 2661#0: *106 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:20:34 [error] 2661#0: *140 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:22:19 [emerg] 2697#0: duplicate location "/" in /home/andrey_murzich/nginx/conf/backend.conf:26
+2017/10/06 07:22:37 [error] 2714#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:22:52 [error] 2714#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:23:28 [error] 2714#0: *40 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET /admin HTTP/1.1", upstream: "http://192.168.122.73:8080/admin", host: "192.168.122.23"
+2017/10/06 07:24:15 [error] 2733#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:24:37 [error] 2733#0: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:24:48 [error] 2733#0: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.23, request: "GET / HTTP/1.1", upstream: "http://192.168.122.73:8080/", host: "192.168.122.23"
+2017/10/06 07:27:36 [emerg] 2754#0: invalid number of arguments in "proxy_intercept_errors" directive in /home/andrey_murzich/nginx/conf/backend.conf:24
+2017/10/06 07:30:15 [emerg] 2784#0: unknown "request_host" variable
+2017/10/06 07:39:47 [emerg] 2815#0: invalid value "*" in /home/andrey_murzich/nginx/conf/backend.conf:25
+2017/10/06 07:40:08 [emerg] 2827#0: invalid value "*" in /home/andrey_murzich/nginx/conf/backend.conf:32
+2017/10/06 07:44:31 [emerg] 2879#0: host not found in upstream "load_balancer" in /home/andrey_murzich/nginx/conf/backend.conf:33
