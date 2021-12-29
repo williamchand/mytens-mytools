@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import re
+import pathlib
 
 
 def print_message(msg_type, **kwargs):
@@ -56,6 +57,7 @@ def run_convert(source_path, output_path, type_data):
         result = "\n".join(result)
     elif type_data == "json":
         result = json_map_log(result)
+    pathlib.Path(os.path.dirname(output_path)).mkdir(parents=True, exist_ok=True)
     dest_file = open(output_path, "w")
     dest_file.write(result)
     dest_file.close()
