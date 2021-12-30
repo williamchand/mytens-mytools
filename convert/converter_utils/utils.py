@@ -88,3 +88,36 @@ def json_map_log(logs):
         m = re.search(lineformat, log)
         result.append(m.groupdict())
     return json.dumps(result, indent=4)
+
+
+def json_reverse_map_log(logs):
+    logs = json.loads("\n".join(logs))
+    result = []
+    for log in logs:
+        m = """
+        {} [{}] {}#{}: {}{}{}{}{}{}{}{}
+        """.format(
+            log["timestamp"],
+            log["severity"],
+            log["process_id"],
+            log["thread_id"],
+            "*" + log["connection_id"] + " " if log["connection_id"] else "",
+            log["error"],
+            " while " + log["context"] if log["context"] else "",
+            ",client: " + log["client_ip"] if log["client_ip"] else "",
+            ",server: " + log["server"] if log["server"] else "",
+            ',request: "'
+            + log["request_method"]
+            + " "
+            + log["request_path"]
+            + " "
+            + log["request_protocol"]
+            + '"'
+            if log["request_method"]
+            else "",
+            ',upstream: "' + log["upstream"] + '"' if log["upstream"] else "",
+            ',host: "' + log["host"] + '"' if log["host"] else "",
+            ',referrer: "' + log["referrer"] + '"' if log["referrer"] else "",
+        )
+        result.append(m)
+    return "\n".join(result)
